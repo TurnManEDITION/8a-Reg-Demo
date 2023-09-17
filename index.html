@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 	<link rel="stylesheet" href="style.css">
 	<title>Login</title>
 </head>
@@ -18,21 +19,25 @@
 					<input type="text" placeholder="имя">
 				</div>
 				<div class="form-field">
-					<input type="text" placeholder="пароль">
+
+					<input type="text" class="pass-input" placeholder="пароль">
+					<span class="pass-icon" id="pass-icon"><img src="icons/eye.png" style="width: 20px"></span>
 				</div>
 			</div>
 			<div class="form-bottons">
-				<a class="button">
+				<a href="" class="button">
 					Войти
 				</a>
 				<div class="divider">
 					или
 				</div>
-				<a href="#" class="button button-google">
+				<a href="" class="button button-google">
 					Google
 				</a>
 			</div>
 		</div>
 	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>

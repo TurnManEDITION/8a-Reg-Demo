@@ -1,4 +1,4 @@
-	/*PC*/
+	/*PC*/  /*pass ZseWaxDqc753248619*/
 @media (min-width: 1080px) {
 	@font-face {
 		font-family: Roboto;
@@ -154,6 +154,13 @@
 		text-align: center;
 		padding-top: 25px;
 		padding-bottom: 25px;
+	}
+	
+	.pass-icon {
+		position: absolute;
+		right: 10%;
+		top: 41.5%;
+		cursor: pointer;
 	}
 }
 	/*PHONE*/
